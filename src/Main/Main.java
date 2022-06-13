@@ -16,7 +16,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("BattleScreen.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/view/BattleScreen.fxml"));
         
         Scene scene = new Scene(root);
         stage.setTitle("MonsterAttack v1.0");
